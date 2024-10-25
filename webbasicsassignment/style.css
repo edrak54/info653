@@ -12,17 +12,19 @@ body {
     float: left;
     width: 200px;
     background-color: #ebadc2;
-    margin-top: 50px;
     border-radius: 20px;
+    text-indent: 10px;
 }
 #main {
     padding-left: 210px;
     margin: 5px;
-    margin-top: 50px;
 }
 #foot {
     clear: both;
     background-color: #7fa046;
+}
+.line {
+    border-bottom: solid;
 }
 h1 {
     color: darkolivegreen;
@@ -33,28 +35,50 @@ h2 {
     color: #7fa046;
 }
 h4 {
-    border-bottom: solid;
     color: palevioletred;
-    margin-left: 5px;
+    border-bottom: solid;
+}
+h5 {
+    color:#7fa046;
 }
 h6 {
     color: lightgrey;
 }
 p {
     color: darkslategray;
-    margin-left: 10px;
 }
 table, th, td {
     border: 3px solid;
     border-color: palevioletred;
     border-collapse: collapse;
+    color: darkslategray;
 }
 table {
     width: 80%;
+    margin-left: 10%;
 }
 th {
     background-color: #ebadc2;
 }
 td {
     background-color: #faebf0;
+}
+ul {
+    color: darkslategray;
+}
+img {
+    margin: 10px;
+    width: 30%;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.sideline {
+    border-left: 5px solid palevioletred;
+}
+.clear {
+    clear: both;
 }
